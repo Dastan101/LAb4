@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+void func(){ 
+	int *p = NULL;
+	int *x = (int *) malloc(sizeof(int));
+	printf("Size of *x %d\n",*x);
+	printf("Sixe of *p %d\n",*p);
+}
+int main(){
+	func();
+	return 0;
+}

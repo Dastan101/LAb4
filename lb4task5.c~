@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void){
+	int *data;
+	data = malloc(100*sizeof(int));
+	data = 0;
+}
